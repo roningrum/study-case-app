@@ -1,0 +1,12 @@
+/* src/app/home/home.component.scss */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+th, td {
+  @apply py-2 px-4 border-b;
+}
+
+button {
+  @apply mt-4 px-4 py-2 bg-red-500 text-white rounded;
+}

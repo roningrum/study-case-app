@@ -1,0 +1,20 @@
+/* src/app/login/login.component.scss */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.login-container {
+  @apply flex items-center justify-center h-screen bg-gray-200;
+}
+
+.login-form {
+  @apply bg-white p-8 rounded shadow-md;
+}
+
+.form-input {
+  @apply w-full px-3 py-2 border rounded;
+}
+
+.form-button {
+  @apply w-full mt-4 px-3 py-2 bg-blue-500 text-white rounded cursor-pointer;
+}
