@@ -1,0 +1,19 @@
+<!-- src/app/login/login.component.html -->
+<div class="login-container">
+    <div class="login-form">
+      <h2 class="text-2xl font-semibold mb-4">Login</h2>
+      <form>
+        <div class="mb-4">
+          <label for="username" class="block text-sm font-medium text-gray-600">Username:</label>
+          <input type="text" id="username" class="form-input" placeholder="Enter your username">
+        </div>
+        <div class="mb-4">
+          <label for="password" class="block text-sm font-medium text-gray-600">Password:</label>
+          <input type="password" id="password" class="form-input" placeholder="Enter your password">
+        </div>
+        <button type="button" (click)="login()" class="form-button">Login</button>
+      </form>
+      <p class="mt-4">Don't have an account? <a routerLink="/home" class="text-blue-500">Go to Home</a></p>
+    </div>
+  </div>
+  
